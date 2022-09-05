@@ -168,8 +168,6 @@ func NewRootCmd(
 				return err
 			}
 
-			// startProxyForTunneledPeers(initClientCtx, cmd)
-
 			return nil
 		},
 	}
